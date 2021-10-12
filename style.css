@@ -1,4 +1,20 @@
-body {background-color:tan;}
-h1{color:green;}
+/* Set the body color to 'black', font to arial and font color to white. */
+body {background-color:black; font-family: Arial; color:white}
+/*   color to 'grey' and font to verdana.*/
+h1{color:grey; font-family: verdana}
 
+/* Set the background color to white, font color to black, width to 300 pixels, and padding to 20px in the newly created maindiv class. */
+.maindiv{
+    background-color:white; 
+    color:black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+    justify-content: center;
+    position: absolute;
+    top: 8%;
+    left: 40%;
+
+    
+}
 

@@ -5,7 +5,7 @@ body {background-color:black;
     font-weight: bold;
 }
 /*   color to 'grey' and font to verdana.*/
-h1{color:grey; font-family: verdana}
+h1{color:grey; font-family: verdana; text-align:center;}
 
 /* Set the background color to white, font color to black, width to 300 pixels, and padding to 20px in the newly created maindiv class. */
 .maindiv{
@@ -31,4 +31,8 @@ select{
 
 input#principal{
     margin-left: 70px;
+}
+
+span#result{
+    margin-left: 75px;  
 }

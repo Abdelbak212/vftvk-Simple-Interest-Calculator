@@ -1,5 +1,9 @@
 /* Set the body color to 'black', font to arial and font color to white. */
-body {background-color:black; font-family: Arial; color:white}
+body {background-color:black; 
+    font-family: Arial; 
+    color:white;
+    font-weight: bold;
+}
 /*   color to 'grey' and font to verdana.*/
 h1{color:grey; font-family: verdana}
 
@@ -7,14 +11,24 @@ h1{color:grey; font-family: verdana}
 .maindiv{
     background-color:white; 
     color:black;
-    width: 300px;
+    width: 500px;
     padding: 20px;
     border-radius: 25px;
-    justify-content: center;
-    position: absolute;
-    top: 8%;
-    left: 40%;
-
+    margin: auto;
+    
     
 }
+select{
+    width: 40px;
+}
 
+.inp1 {
+    margin-left: 75px;
+}
+.inp2 {
+    margin-left: 40px;
+}
+
+input#principal{
+    margin-left: 70px;
+}
